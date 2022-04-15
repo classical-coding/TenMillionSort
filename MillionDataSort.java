@@ -44,8 +44,8 @@ public class MillionDataSort{
 	
 	public static void millionDataCreation(List<Integer> list) {
 		int max = 10000000;
-        int min = 1;
-        int range = max - min + 1;
+                int min = 1;
+                int range = max - min + 1;
 		for(int i = 1; i <= max; i++){
 			list.add((int)(Math.random()*range + min));
 		}
